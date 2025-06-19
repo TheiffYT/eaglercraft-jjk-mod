@@ -1,0 +1,33 @@
+{
+  "id": "megumi_fushiguro",
+  "name": "Megumi Fushiguro",
+  "texture": "megumi.png",
+  "health": 120,
+  "hostile": false,
+  "friendly": true,
+  "dialogue": [
+    "I don’t fight to win… I fight so I don’t lose. 🐺",
+    "Ten Shadows Technique: Divine Dogs, deploy!",
+    "You’re strong. But I’m not backing down."
+  ],
+  "abilities": {
+    "summon": ["divine_dog", "nue", "max_elephant"],
+    "teleport": false
+  },
+  "drops": [
+    {
+      "item": "yen",
+      "amount": 10,
+      "chance": 1.0
+    },
+    {
+      "item": "cursed_finger",
+      "chance": 0.2
+    }
+  ],
+  "behavior": {
+    "followPlayer": true,
+    "trade": false,
+    "immortal": false
+  }
+}
