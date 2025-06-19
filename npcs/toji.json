@@ -1,0 +1,43 @@
+{
+  "id": "toji_fushiguro",
+  "name": "Toji Fushiguro",
+  "texture": "toji.png",
+  "health": 400,
+  "hostile": true,
+  "friendly": false,
+  "dialogue": [
+    "No cursed energy… just pure hands. 🗡️💪",
+    "Zenin clan? Miss me with that.",
+    "You’re not worth the effort."
+  ],
+  "abilities": {
+    "inverted_spear": true,
+    "heavenly_restriction": true,
+    "curse_immunity": true,
+    "teleport": false
+  },
+  "drops": [
+    {
+      "item": "toji_spear",
+      "chance": 1.0
+    },
+    {
+      "item": "yen",
+      "amount": 75,
+      "chance": 0.6
+    }
+  ],
+  "behavior": {
+    "followPlayer": false,
+    "immortal": false,
+    "aggressive": true,
+    "boss": true,
+    "attackDamage": 20,
+    "movementSpeed": 1.5,
+    "targetSorcerers": true
+  },
+  "special": {
+    "onSpawn": "Broadcast: ⚠️ Toji Fushiguro has appeared. All cursed techniques are nullified!",
+    "onKill": "Broadcast: The Sorcerer Killer strikes again... 💀"
+  }
+}
