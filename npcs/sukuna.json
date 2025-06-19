@@ -1,0 +1,47 @@
+{
+  "id": "sukuna_ryomen",
+  "name": "Ryomen Sukuna",
+  "texture": "sukuna.png",
+  "health": 666,
+  "hostile": true,
+  "friendly": false,
+  "dialogue": [
+    "You're in MY domain now. 💀",
+    "Pathetic.",
+    "You dare face the King of Curses?"
+  ],
+  "abilities": {
+    "domain_expansion": "Malevolent Shrine",
+    "cleave": true,
+    "dismantle": true,
+    "teleport": true
+  },
+  "drops": [
+    {
+      "item": "cursed_finger",
+      "amount": 1,
+      "chance": 1.0
+    },
+    {
+      "item": "yen",
+      "amount": 100,
+      "chance": 0.5
+    },
+    {
+      "item": "soul_split_katana",
+      "chance": 0.1
+    }
+  ],
+  "behavior": {
+    "followPlayer": true,
+    "immortal": false,
+    "aggressive": true,
+    "boss": true,
+    "attackDamage": 15,
+    "movementSpeed": 1.3
+  },
+  "special": {
+    "onSpawn": "Broadcast: The air grows heavy... Sukuna has appeared. 💀",
+    "onKill": "Broadcast: Another soul claimed by the King of Curses."
+  }
+}
