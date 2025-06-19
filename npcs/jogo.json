@@ -1,0 +1,41 @@
+{
+  "id": "jogo",
+  "name": "Jogo",
+  "texture": "jogo.png",
+  "health": 300,
+  "hostile": true,
+  "friendly": false,
+  "dialogue": [
+    "You dare mock the might of fire?",
+    "I am a disaster made flesh!",
+    "My volcano will consume you."
+  ],
+  "abilities": {
+    "volcano_head": true,
+    "domain_expansion": "Coffin of the Iron Mountain",
+    "fireball": true
+  },
+  "drops": [
+    {
+      "item": "yen",
+      "amount": 80,
+      "chance": 1.0
+    },
+    {
+      "item": "cursed_core",
+      "chance": 0.4
+    }
+  ],
+  "behavior": {
+    "aggressive": true,
+    "boss": true,
+    "attackDamage": 14,
+    "movementSpeed": 1.0,
+    "targetSorcerers": true,
+    "fireImmune": true
+  },
+  "special": {
+    "onSpawn": "Broadcast: 🔥 A volcanic cursed spirit erupts — Jogo has appeared!",
+    "onKill": "Broadcast: Burned to ash by the mountain's wrath..."
+  }
+}
