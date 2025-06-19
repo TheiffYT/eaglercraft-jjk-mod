@@ -1,0 +1,40 @@
+{
+  "id": "nobara_kugisaki",
+  "name": "Nobara Kugisaki",
+  "texture": "nobara.png",
+  "health": 160,
+  "hostile": false,
+  "friendly": true,
+  "dialogue": [
+    "Cute girls can curse too, idiot. 💅",
+    "Try me and get nailed — literally. 🔨",
+    "I’m not dying before I go shopping again."
+  ],
+  "abilities": {
+    "straw_doll": true,
+    "resonance": true,
+    "self_injury_attack": true
+  },
+  "drops": [
+    {
+      "item": "yen",
+      "amount": 30,
+      "chance": 1.0
+    },
+    {
+      "item": "nail_hammer",
+      "chance": 0.5
+    }
+  ],
+  "behavior": {
+    "followPlayer": true,
+    "immortal": false,
+    "assistInCombat": true,
+    "trade": false,
+    "targetCursedMobs": true
+  },
+  "special": {
+    "onSpawn": "Broadcast: ⚠️ Nobara has entered the battlefield — someone’s about to get nailed.",
+    "onKill": "Broadcast: OOP— she really did it to 'em 💅🔨"
+  }
+}
