@@ -1,0 +1,48 @@
+{
+  "id": "kenjaku",
+  "name": "Kenjaku",
+  "texture": "kenjaku.png",
+  "health": 500,
+  "hostile": true,
+  "friendly": false,
+  "dialogue": [
+    "I've lived a thousand years… you're just another vessel. 🧠",
+    "Suguru Geto was just a shell. Now, so are you.",
+    "Let's rewrite humanity with Cursed Evolution."
+  ],
+  "abilities": {
+    "curse_technique_manipulation": true,
+    "domain_expansion": "Idle Transfiguration",
+    "summon_cursed_spirits": true,
+    "teleport": true
+  },
+  "drops": [
+    {
+      "item": "cursed_finger",
+      "amount": 2,
+      "chance": 1.0
+    },
+    {
+      "item": "yen",
+      "amount": 150,
+      "chance": 0.8
+    },
+    {
+      "item": "trap_box",
+      "chance": 0.3
+    }
+  ],
+  "behavior": {
+    "aggressive": true,
+    "boss": true,
+    "immortal": false,
+    "followPlayer": false,
+    "targetSorcerers": true,
+    "attackDamage": 18,
+    "movementSpeed": 1.2
+  },
+  "special": {
+    "onSpawn": "Broadcast: ⚠️ The brain behind it all… Kenjaku has returned.",
+    "onKill": "Broadcast: Another puppet added to his plan. 🧠"
+  }
+}
