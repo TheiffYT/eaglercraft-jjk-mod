@@ -1,0 +1,40 @@
+{
+  "id": "maki_zenin",
+  "name": "Maki Zenin",
+  "texture": "maki.png",
+  "health": 250,
+  "hostile": false,
+  "friendly": true,
+  "dialogue": [
+    "I don't need cursed energy to beat your ass. 🔪",
+    "Zenin blood? That means nothing to me.",
+    "I’m not strong because of cursed energy… I’m strong *without* it."
+  ],
+  "abilities": {
+    "weapon_mastery": true,
+    "high_speed": true,
+    "anti_curse": true
+  },
+  "drops": [
+    {
+      "item": "katana_basic",
+      "chance": 1.0
+    },
+    {
+      "item": "yen",
+      "amount": 30,
+      "chance": 0.75
+    }
+  ],
+  "behavior": {
+    "followPlayer": true,
+    "immortal": false,
+    "trade": false,
+    "assistInCombat": true,
+    "targetCursedMobs": true
+  },
+  "special": {
+    "onSpawn": "Broadcast: Maki Zenin enters the battlefield with blade in hand. ⚔️🔥",
+    "onKill": "Broadcast: Another cursed spirit just got humbled by Maki."
+  }
+}
