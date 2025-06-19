@@ -1,0 +1,34 @@
+{
+  "id": "gojo_satoru",
+  "name": "Gojo Satoru",
+  "texture": "gojo.png",
+  "health": 9999,
+  "hostile": false,
+  "friendly": true,
+  "dialogue": [
+    "You shouldn't pick a fight with the strongest. 😎",
+    "Eyes up. Domain Expansion incoming. 🔵🌀",
+    "I could’ve one-tapped you... but where's the fun in that?"
+  ],
+  "abilities": {
+    "teleport": true,
+    "infinite": true,
+    "limitless": true
+  },
+  "drops": [
+    {
+      "item": "playful_cloud",
+      "chance": 0.05
+    },
+    {
+      "item": "yen",
+      "amount": 50,
+      "chance": 1.0
+    }
+  ],
+  "behavior": {
+    "followPlayer": false,
+    "trade": true,
+    "immortal": true
+  }
+}
