@@ -1,0 +1,41 @@
+{
+  "id": "yuta_okkotsu",
+  "name": "Yuta Okkotsu",
+  "texture": "yuta.png",
+  "health": 280,
+  "hostile": false,
+  "friendly": true,
+  "dialogue": [
+    "I'll protect everyone. Even if I have to kill to do it. 🗡️",
+    "Rika… lend me your strength. 👁️",
+    "I may be shy… but I’ll end this fast."
+  ],
+  "abilities": {
+    "rika_support": true,
+    "healing": true,
+    "copy_technique": true,
+    "katana_mastery": true
+  },
+  "drops": [
+    {
+      "item": "soul_split_katana",
+      "chance": 0.25
+    },
+    {
+      "item": "yen",
+      "amount": 50,
+      "chance": 1.0
+    }
+  ],
+  "behavior": {
+    "followPlayer": true,
+    "immortal": false,
+    "assistInCombat": true,
+    "trade": false,
+    "targetCursedMobs": true
+  },
+  "special": {
+    "onSpawn": "Broadcast: ⚠️ Yuta Okkotsu has appeared… the cursed lover returns.",
+    "onKill": "Broadcast: Yuta whispers to Rika as his enemy falls."
+  }
+}
