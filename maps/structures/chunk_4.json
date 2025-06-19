@@ -1,0 +1,51 @@
+{
+  "name": "chunk_4",
+  "size": [256, 256, 128],
+  "blocks": [
+    { "pos": [768, 70, 0], "type": "stone" },
+    { "pos": [769, 70, 0], "type": "stone" },
+    { "pos": [770, 70, 0], "type": "stone" },
+    { "pos": [771, 70, 0], "type": "stone" },
+    { "pos": [772, 70, 0], "type": "stone" },
+
+    { "pos": [768, 71, 0], "type": "glass" },
+    { "pos": [769, 71, 0], "type": "glass" },
+    { "pos": [770, 71, 0], "type": "glass" },
+
+    { "pos": [778, 70, 10], "type": "cracked_stone_bricks" },
+    { "pos": [779, 70, 10], "type": "cobblestone" },
+    { "pos": [780, 70, 10], "type": "gravel" },
+
+    { "pos": [818, 70, 50], "type": "rail" },
+    { "pos": [819, 70, 50], "type": "rail" },
+
+    { "pos": [868, 70, 100], "type": "obsidian" },
+    { "pos": [868, 71, 100], "type": "coal_block" },
+    { "pos": [868, 72, 100], "type": "lodestone" }
+  ],
+  "npcs": [
+    {
+      "id": "gojo_satoru",
+      "pos": [788, 71, 20],
+      "friendly": true,
+      "dialogue": "Stay behind me. This city's not safe."
+    },
+    {
+      "id": "mahito",
+      "pos": [896, 70, 128],
+      "friendly": false,
+      "drops": ["cursed_energy_core"]
+    },
+    {
+      "id": "itadori_yuji",
+      "pos": [832, 70, 64],
+      "friendly": true,
+      "dialogue": "If I die, make sure Sukuna goes with me."
+    }
+  ],
+  "barrier": {
+    "type": "glass_dome",
+    "center": [896, 70, 128],
+    "radius": 100
+  }
+}
