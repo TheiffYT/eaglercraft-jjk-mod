@@ -1,0 +1,41 @@
+{
+  "id": "mahito",
+  "name": "Mahito",
+  "texture": "mahito.png",
+  "health": 250,
+  "hostile": true,
+  "friendly": false,
+  "dialogue": [
+    "Humans are just meat with emotions. I love rearranging them.",
+    "Let's play with souls, shall we?",
+    "Fear makes you beautiful."
+  ],
+  "abilities": {
+    "idle_transfiguration": true,
+    "soul_manipulation": true,
+    "domain_expansion": "Self-Embodiment of Perfection",
+    "teleport": true
+  },
+  "drops": [
+    {
+      "item": "trap_box",
+      "chance": 0.3
+    },
+    {
+      "item": "yen",
+      "amount": 70,
+      "chance": 1.0
+    }
+  ],
+  "behavior": {
+    "aggressive": true,
+    "boss": true,
+    "attackDamage": 16,
+    "movementSpeed": 1.1,
+    "targetSorcerers": true
+  },
+  "special": {
+    "onSpawn": "Broadcast: 🧠 Mahito slithers into the battlefield. Watch your soul...",
+    "onKill": "Broadcast: Their soul... is now a toy in Mahito's hands."
+  }
+}
