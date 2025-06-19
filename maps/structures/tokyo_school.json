@@ -1,0 +1,143 @@
+{
+  "id": "tokyo_school",
+  "name": "Tokyo Jujutsu High",
+  "dimensions": [60, 15, 50],
+  "origin": [0, 64, 0],
+  "blocks": [
+    {
+      "pos": [0, 0, 0],
+      "block": "quartz_block"
+    },
+    {
+      "pos": [0, 0, 1],
+      "block": "quartz_block"
+    },
+    {
+      "pos": [0, 0, 2],
+      "block": "stone_bricks"
+    },
+    {
+      "pos": [5, 0, 5],
+      "block": "oak_door"
+    },
+    {
+      "pos": [5, 1, 5],
+      "block": "air"
+    },
+    {
+      "pos": [10, 0, 10],
+      "block": "blue_wool"
+    },
+    {
+      "pos": [10, 1, 10],
+      "block": "glass"
+    }
+{
+  "id": "tokyo_school",
+  "name": "Tokyo Jujutsu High",
+  "dimensions": [20, 10, 20],
+  "origin": [0, 64, 0],
+  "blocks": [
+    { "pos": [0, 0, 0], "block": "stone_bricks" },
+    { "pos": [1, 0, 0], "block": "stone_bricks" },
+    { "pos": [2, 0, 0], "block": "stone_bricks" },
+    { "pos": [3, 0, 0], "block": "stone_bricks" },
+    { "pos": [4, 0, 0], "block": "stone_bricks" },
+
+    { "pos": [0, 1, 0], "block": "stone_bricks" },
+    { "pos": [4, 1, 0], "block": "stone_bricks" },
+
+    { "pos": [0, 2, 0], "block": "stone_bricks" },
+    { "pos": [1, 2, 0], "block": "glass" },
+    { "pos": [2, 2, 0], "block": "glass" },
+    { "pos": [3, 2, 0], "block": "glass" },
+    { "pos": [4, 2, 0], "block": "stone_bricks" },
+
+    { "pos": [0, 3, 0], "block": "stone_bricks" },
+    { "pos": [4, 3, 0], "block": "stone_bricks" },
+
+    { "pos": [0, 4, 0], "block": "stone_bricks" },
+    { "pos": [1, 4, 0], "block": "stone_bricks" },
+    { "pos": [2, 4, 0], "block": "stone_bricks" },
+    { "pos": [3, 4, 0], "block": "stone_bricks" },
+    { "pos": [4, 4, 0], "block": "stone_bricks" },
+
+    { "pos": [2, 0, 1], "block": "oak_door" },
+    { "pos": [2, 1, 1], "block": "air" },
+
+    { "pos": [0, 0, 2], "block": "quartz_block" },
+    { "pos": [1, 0, 2], "block": "quartz_block" },
+    { "pos": [2, 0, 2], "block": "quartz_block" },
+    { "pos": [3, 0, 2], "block": "quartz_block" },
+    { "pos": [4, 0, 2], "block": "quartz_block" },
+
+    { "pos": [0, 5, 0], "block": "stone_slab" },
+    { "pos": [1, 5, 0], "block": "stone_slab" },
+    { "pos": [2, 5, 0], "block": "stone_slab" },
+    { "pos": [3, 5, 0], "block": "stone_slab" },
+    { "pos": [4, 5, 0], "block": "stone_slab" }
+  ],
+  "entities": [
+    {
+      "id": "gojo_satoru",
+      "position": [2, 1, 4]
+    },
+    {
+      "id": "megumi_fushiguro",
+      "position": [1, 1, 3]
+    },
+    {
+      "id": "nobara_kugisaki",
+      "position": [3, 1, 3]
+    },
+    {
+      "id": "maki_zenin",
+      "position": [2, 1, 2]
+    }
+  ],
+  "decor": [
+    {
+      "type": "sign",
+      "text": "Tokyo Jujutsu High\nWhere Sorcerers Are Made \uD83D\uDD00\uD83D\uDC80",
+      "pos": [2, 2, 1]
+    },
+    {
+      "type": "banner",
+      "color": "blue",
+      "pos": [0, 2, 0]
+    }
+  ]
+}
+
+  ],
+  "entities": [
+    {
+      "id": "gojo_satoru",
+      "position": [30, 1, 10]
+    },
+    {
+      "id": "megumi_fushiguro",
+      "position": [25, 1, 12]
+    },
+    {
+      "id": "nobara_kugisaki",
+      "position": [32, 1, 9]
+    },
+    {
+      "id": "maki_zenin",
+      "position": [28, 1, 8]
+    }
+  ],
+  "decor": [
+    {
+      "type": "sign",
+      "text": "Tokyo Jujutsu High\nWhere Sorcerers Are Made 🌀💀",
+      "pos": [5, 2, 5]
+    },
+    {
+      "type": "banner",
+      "color": "blue",
+      "pos": [0, 2, 0]
+    }
+  ]
+}
