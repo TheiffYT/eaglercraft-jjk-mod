@@ -1,0 +1,21 @@
+modLoader="eaglerforge"
+loaderVersion="[1.0,)"
+license="MIT"
+
+[[mods]]
+modId="jjk_story_mode"
+version="1.0.0"
+displayName="Jujutsu Kaisen: Story Mode"
+credits="Made by SpaM da Mod Boss 😎"
+authors="Daquan King, Lil Sis"
+description='''
+A cursed tale of katana combos, cursed wombs, Sukuna fingers, and Tokyo Juju drip.
+Slice your way through cursed mobs, buy weapons with Yen 💴, and become a Sorcerer Supreme.
+'''
+
+[[dependencies.jjk_story_mode]]
+modId="eaglerforge"
+mandatory=true
+versionRange="[1.0,)"
+ordering="NONE"
+side="BOTH"
