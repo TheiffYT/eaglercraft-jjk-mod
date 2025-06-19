@@ -1,0 +1,39 @@
+{
+  "id": "yuji_itadori",
+  "name": "Yuji Itadori",
+  "texture": "yuji.png",
+  "health": 200,
+  "hostile": false,
+  "friendly": true,
+  "dialogue": [
+    "I eat fingers and punch curses. 🥊💀",
+    "I won't let anyone die again.",
+    "Cursed energy... I still hate it, but I'm not backing down!"
+  ],
+  "abilities": {
+    "black_flash": true,
+    "divergent_fist": true,
+    "sukuna_switch": true
+  },
+  "drops": [
+    {
+      "item": "yen",
+      "amount": 20,
+      "chance": 1.0
+    },
+    {
+      "item": "playful_cloud",
+      "chance": 0.2
+    }
+  ],
+  "behavior": {
+    "followPlayer": true,
+    "immortal": false,
+    "trade": false,
+    "assistInCombat": true
+  },
+  "special": {
+    "onHurt": "Broadcast: Yuji's cursed energy flares up! 👊⚡",
+    "onDeath": "Broadcast: Sukuna awakens... 💀"
+  }
+}
