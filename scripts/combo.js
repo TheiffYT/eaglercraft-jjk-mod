@@ -1,10 +1,12 @@
+// combo.js
+
 let comboSequence = [];
 let comboTimeout;
 
 function registerComboInput(input) {
   comboSequence.push(input);
 
-  // Reset if no input for 1 second
+  // Reset if no input in 1 sec
   if (comboTimeout) clearTimeout(comboTimeout);
   comboTimeout = setTimeout(() => {
     comboSequence = [];
@@ -16,3 +18,6 @@ function registerComboInput(input) {
     comboSequence = [];
   }
 }
+
+// Receive input from keybinds
+registerComboInput(input);
