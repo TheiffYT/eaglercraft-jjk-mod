@@ -1,0 +1,14 @@
+{
+  "item": {
+    "id": "coin",
+    "displayName": "🪙 Coin",
+    "texture": "currency/coin.png",
+    "maxStack": 100000,
+    "tooltip": ["Used as payment"],
+    "category": "Currency",
+    "onUse": {
+      "function": "runScript",
+      "script": "currency/exchange.js"
+    }
+  }
+}
