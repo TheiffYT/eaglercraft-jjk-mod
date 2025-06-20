@@ -1,0 +1,14 @@
+{
+  "ability": {
+    "id": "yuji_kick",
+    "displayName": "🦵 Yuji's Kick",
+    "cooldown": 0.8,
+    "damage": 8,
+    "range": 2.5,
+    "knockback": 1.8,
+    "sound": "minecraft:entity.blaze.hurt",
+    "particle": "minecraft:cloud",
+    "animation": "swing_leg", 
+    "description": "A cursed-powered kick that sends enemies flying like soccer balls."
+  }
+}
