@@ -1,0 +1,14 @@
+{
+  "ability": {
+    "id": "yuji_punch",
+    "displayName": "👊 Yuji's Punch",
+    "cooldown": 0.4,
+    "damage": 7,
+    "range": 2.2,
+    "knockback": 0.6,
+    "sound": "minecraft:entity.zombie.attack_iron_door",
+    "particle": "minecraft:crit",
+    "animation": "swing_arm",
+    "description": "A raw, powerful punch fueled by determination... and cursed potential."
+  }
+}
