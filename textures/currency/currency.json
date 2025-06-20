@@ -1,0 +1,18 @@
+{
+  "yen": {
+    "displayName": "💴 Yen",
+    "icon": "currency/yen.png",
+    "maxStack": 100000,
+    "visibleOnHUD": true,
+    "startingAmount": 0,
+    "category": "Currency",
+    "type": "item"
+  },
+  "coin": {
+    "displayName": "🪙 Coin",
+    "icon": "currency/coin.png",
+    "maxStack": 100000,
+    "visibleOnHUD": false,
+    "type": "item"
+  }
+}
