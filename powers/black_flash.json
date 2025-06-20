@@ -1,0 +1,14 @@
+{
+  "ability": {
+    "id": "black_flash",
+    "displayName": "💥 Black Flash",
+    "cooldown": 10.0,
+    "damage": 20,
+    "range": 3.5,
+    "knockback": 2.5,
+    "sound": "minecraft:entity.lightning_bolt.impact",
+    "particle": "minecraft:redstone",
+    "animation": "power_burst",
+    "description": "A frame-perfect cursed strike that bends reality and annihilates your target."
+  }
+}
