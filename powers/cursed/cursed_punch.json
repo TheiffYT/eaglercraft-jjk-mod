@@ -1,0 +1,12 @@
+{
+  "displayName": "Cursed Punch",
+  "id": "cursed_punch",
+  "damage": 10,
+  "range": 3,
+  "knockback": 1.5,
+  "cooldown": 12,
+  "energyCost": 10,
+  "particle": "cursed_hit",
+  "sound": "cursed_punch_hit",
+  "description": "A punch reinforced with raw cursed energy."
+}
