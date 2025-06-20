@@ -1,0 +1,17 @@
+{
+  "item": {
+    "id": "yen",
+    "displayName": "💴 Yen",
+    "texture": "currency/yen.png",
+    "maxStack": 100000,
+    "tooltip": [
+      "Cursed currency used by sorcerers",
+      "Valuable in shops, useless in domains 👁️"
+    ],
+    "category": "Currency",
+    "onUse": {
+      "function": "runScript",
+      "script": "currency/shop.js"
+    }
+  }
+}
