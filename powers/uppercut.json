@@ -1,0 +1,14 @@
+{
+  "ability": {
+    "id": "yuji_uppercut",
+    "displayName": "🆙 Yuji's Uppercut",
+    "cooldown": 1.0,
+    "damage": 9,
+    "range": 2.0,
+    "knockback": 1.2,
+    "sound": "minecraft:entity.iron_golem.attack",
+    "particle": "minecraft:explosion",
+    "animation": "swing_arm",
+    "description": "A devastating rising punch that launches enemies sky-high."
+  }
+}
