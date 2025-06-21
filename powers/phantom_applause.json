@@ -1,0 +1,7 @@
+{
+  "id": "phantom_applause",
+  "displayName": "Phantom Applause",
+  "key": "none",
+  "type": "active",
+  "script": "phantom_applause.js"
+}

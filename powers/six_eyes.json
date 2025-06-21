@@ -1,0 +1,7 @@
+{
+  "id": "six_eyes",
+  "displayName": "Six Eyes",
+  "key": "none",
+  "type": "active",
+  "script": "six_eyes.js"
+}

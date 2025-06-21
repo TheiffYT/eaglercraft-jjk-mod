@@ -1,0 +1,7 @@
+{
+  "id": "stun",
+  "displayName": "Stun",
+  "key": "none",
+  "type": "active",
+  "script": "stun.js"
+}

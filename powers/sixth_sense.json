@@ -1,0 +1,7 @@
+{
+  "id": "sixth_sense",
+  "displayName": "Sixth Sense",
+  "key": "none",
+  "type": "active",
+  "script": "sixth_sense.js"
+}

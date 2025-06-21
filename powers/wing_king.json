@@ -1,0 +1,7 @@
+{
+  "id": "wing_king",
+  "displayName": "Wing King",
+  "key": "none",
+  "type": "active",
+  "script": "wing_king.js"
+}

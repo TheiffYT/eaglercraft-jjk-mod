@@ -1,0 +1,7 @@
+{
+  "id": "suppressed",
+  "displayName": "Suppressed",
+  "key": "none",
+  "type": "active",
+  "script": "suppressed.js"
+}

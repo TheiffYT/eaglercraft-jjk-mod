@@ -1,0 +1,7 @@
+{
+  "id": "infinity",
+  "displayName": "Infinity",
+  "key": "none",
+  "type": "active",
+  "script": "infinity.js"
+}

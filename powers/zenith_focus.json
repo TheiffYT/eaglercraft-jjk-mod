@@ -1,0 +1,7 @@
+{
+  "id": "zenith_focus",
+  "displayName": "Zenith Focus",
+  "key": "none",
+  "type": "active",
+  "script": "zenith_focus.js"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "reverse_cursed_technique",
+  "displayName": "Reverse Cursed Technique",
+  "key": "none",
+  "type": "active",
+  "script": "reverse_cursed_technique.js"
+}
