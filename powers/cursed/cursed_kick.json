@@ -1,12 +1,15 @@
 {
-  "displayName": "Cursed Kick",
   "id": "cursed_kick",
-  "damage": 7,
-  "range": 5,
-  "knockback": 2.0,
-  "cooldown": 10,
-  "energyCost": 15,
-  "particle": "cursed_hit",
-  "sound": "cursed_kick_hit",
-  "description": "A kick reinforced with raw cursed energy."
+  "displayName": "Cursed Kick",
+  "description": "A cursed energy-infused kick that launches enemies back with extreme force.",
+  "cooldown": 20,
+  "key": "k",
+  "combo": ["c", "k"],
+  "damage": 10,
+  "range": 4,
+  "knockback": 1.2,
+  "sound": "curse_kick.wav",
+  "particle": "curse_burst",
+  "animation": "kick_blast",
+  "script": "cursed_kick.js"
 }
