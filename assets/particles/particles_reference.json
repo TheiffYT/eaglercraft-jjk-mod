@@ -1,0 +1,89 @@
+{
+  "bf_spark": [
+    "bf_spark1",
+    "bf_spark2",
+    "bf_spark3",
+    "bf_spark4",
+    "bf_spark5"
+  ],
+  "blood_splash": [
+    "blood_splash1",
+    "blood_splash2",
+    "blood_splash3",
+    "blood_splash4",
+    "blood_splash5",
+    "blood_splash6",
+    "blood_splash7",
+    "blood_splash8",
+    "blood_splash9"
+  ],
+  "purple_spark": [
+    "purple_spark1",
+    "purple_spark2",
+    "purple_spark3",
+    "purple_spark4",
+    "purple_spark5",
+    "purple_spark6"
+  ],
+  "red_boom": [
+    "red_boom1",
+    "red_boom2",
+    "red_boom3",
+    "red_boom4",
+    "red_boom5",
+    "red_boom6",
+    "red_boom7",
+    "red_boom8"
+  ],
+  "spark": [
+    "spark1",
+    "spark2",
+    "spark3",
+    "spark4",
+    "spark5",
+    "spark6"
+  ],
+  "blue_spark": [
+    "blue_spark1",
+    "blue_spark2",
+    "blue_spark3",
+    "blue_spark4",
+    "blue_spark5",
+    "blue_spark6"
+  ],
+  "purple_boom": [
+    "purple_boom1",
+    "purple_boom2",
+    "purple_boom3",
+    "purple_boom4",
+    "purple_boom5",
+    "purple_boom6",
+    "purple_boom7",
+    "purple_boom8"
+  ],
+  "red_spark": [
+    "red_spark1",
+    "red_spark2",
+    "red_spark3",
+    "red_spark4",
+    "red_spark5",
+    "red_spark6"
+  ],
+  "ce_spark": [
+    "ce_spark1",
+    "ce_spark2",
+    "ce_spark3",
+    "ce_spark4",
+    "ce_spark5",
+    "ce_spark6"
+  ],
+  "bloom_": [
+    "bloom_0",
+    "bloom_1",
+    "bloom_2",
+    "bloom_3",
+    "bloom_4",
+    "bloom_5",
+    "bloom_6"
+  ]
+}
