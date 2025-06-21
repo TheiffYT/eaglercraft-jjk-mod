@@ -1,0 +1,15 @@
+{
+  "id": "cursed_uppercut",
+  "displayName": "Cursed Uppercut",
+  "description": "A devastating cursed energy uppercut that launches enemies into the sky.",
+  "cooldown": 25,
+  "key": "u",
+  "combo": ["c", "u"],
+  "damage": 12,
+  "range": 3,
+  "knockback": 1.6,
+  "sound": "curse_uppercut.wav",
+  "particle": "curse_slam",
+  "animation": "uppercut_blast",
+  "script": "cursed_uppercut.js"
+}
